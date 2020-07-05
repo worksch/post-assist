@@ -2,6 +2,8 @@
 *.temp
 *.pyc
 *.swp
-
+*.DS_Store
+**/migrations
+*_initial.py
 **/__pycache
-
+static/

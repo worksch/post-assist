@@ -11,4 +11,5 @@ urlpatterns = [
     #path('address/', views.address_list, name='address'),
     path('address/', views.StudentAddressView.as_view(), name='address'),
     path('address/<int:id>', views.StudentAddressView.as_view(), name='address'),
+    path('import/', views.address_attachment_upload, name='import'),
 ]
